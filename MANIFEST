@@ -6,3 +6,4 @@ lib/Fennec/Assert/Wrapper/Differences.pm
 t/manifest.t
 t/Fennec.t
 t/Fennec/Assert/Wrapper/Differences.pm
+ignore.txt
