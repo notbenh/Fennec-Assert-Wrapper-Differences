@@ -13,11 +13,11 @@ Fennec::Assert::Wrapper::Differences - Fennec wrapper for L<Test::Differences>
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 for my $name ( qw{eq_or_diff eq_or_diff_text eq_or_diff_data unified_diff context_diff oldstyle_diff table_diff} ) {
     no strict 'refs';
