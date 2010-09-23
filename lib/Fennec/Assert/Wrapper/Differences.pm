@@ -7,17 +7,7 @@ use Fennec::Assert;
 use Fennec::Output::Result;
 require Test::Differences;
 
-=head1 NAME
-
-Fennec::Assert::Wrapper::Differences - Fennec wrapper for L<Test::Differences>
-
-=head1 VERSION
-
-Version 0.02
-
-=cut
-
-our $VERSION = '0.02';
+# ABSTRACT: Fennec wrapper for L<Test::Differences>
 
 for my $name ( qw{eq_or_diff eq_or_diff_text eq_or_diff_data unified_diff context_diff oldstyle_diff table_diff} ) {
     no strict 'refs';
